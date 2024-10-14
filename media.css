@@ -1,0 +1,833 @@
+@media (max-width:480px){
+
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        /* border: 1px solid purple; */
+    }
+    
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    
+    .nav-bar{
+    
+        width: 100%;
+        height: 70px;
+        backdrop-filter: blur(15px);
+        position: sticky;
+        top: 0px;
+        
+    }
+    
+    .logo-section{
+        width: 50%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-section img{
+    
+        width: 80%;
+    }
+    
+    .mini-nav{
+        display: none;
+    }
+    
+    .mini-nav-content{ 
+        display: none;
+    }
+    
+    .btn-container{
+        width: 50%;
+        height: 80px;
+        gap: 5px;
+    }
+    
+    .btn-container button:nth-child(1){
+        width: 90px;
+        height: 33px;
+        font-size: 15px;
+    }
+    
+    
+    .btn-container button:nth-child(2){
+        width: 120px;
+        height: 35px;
+        font-size: 15px;
+    }
+    
+    /* nav bar end */
+    
+    
+    .heading-section{
+        width: 100%;
+        height: 265px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .ex-heading{
+        width: 100%;
+        height: 270px;
+        padding-left: 25px;    
+    }
+    
+    .ex-heading h1{
+        font-size: 35px;
+        font-weight: 300;
+    }
+    
+    .p-with-button{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding-left: 25px;    
+    }
+    
+    
+    .bg-image-con{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bg-img{
+        display: none;
+    }
+    .bg-image-mobile{
+        width: 95%;
+        height: 250px;
+        background-image: url(./golf-ball-tee-with-sunrise-background_878783-21718.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 25px;
+        display: flex;
+    }
+   
+.color{
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.144) 0%, rgba(0, 0, 0, 0.271) 35%, rgba(0, 0, 0, 0.884) 100%);
+}
+
+.color{
+    color: rgba(255, 255, 255, 0.832);
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.color h3{
+    font-weight: 300;
+}
+
+.color button{
+   width: 95px;
+   height: 30px;
+   background: transparent;
+   color: rgba(255, 255, 255, 0.716);
+   border-radius: 24px;
+   border: 1px solid rgba(255, 255, 255, 0.675);
+}
+
+.book-heading{
+    width: 100%;
+    height: 100px;   
+}
+
+.book-heading h1{
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.box-container{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.box01{
+    width: 90%;
+    height: 110px;
+}
+
+
+/* .box01:hover{
+    transition: all 0.5s 0.1s;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
+} */
+
+
+.box02{
+    width: 90%;
+    height: 110px;
+}
+
+/* .box02:hover{
+    transition: all 0.5s 0.1s;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
+} */
+
+.box03{
+    width: 90%;
+    height: 110px;
+}
+
+/* .box03:hover{
+    transition: all 0.5s 0.1s;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
+} */
+
+
+.images-heading-con{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.our-heading{
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.our-heading h1{
+    padding-bottom: 10px;
+    font-size: 45px;
+}
+
+.our-heading p{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.golf-man-image-con{
+    width: 100%;
+    height:400px;
+}
+
+.golf-image{
+    width: 450px;
+    height: 360px;
+
+}
+
+.golf-man-img-con{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    flex-direction: column;
+}
+
+.golf-con{
+    width: 350px;
+    height: 350px;
+}
+
+.main-golf{
+    width: 450px;
+    height: 350px;
+}
+
+.golf-con{
+    width: 100%;
+  
+}
+
+.icon-box i{
+    font-size: 18px;
+    padding: 15px;
+}
+
+
+.mobile-img-bg{
+
+    width: 95%;
+    height: 350px;
+    background-image: url(./Screenshot\ 2024-10-09\ 090422.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+
+.mobile-img-bg h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  
+}
+
+.mobile-img-bg p{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 40px;
+ 
+}
+
+.mobile-img-bg button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 25px; 
+    background: transparent;
+    color: white;
+   
+}
+
+.img-bg-2{
+    display: none;
+}
+
+
+.bg-color2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.dis-heading{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.dis-heading h1{
+    font-weight: 500;
+    font-size: 35px;
+    padding-block: 15px;
+}
+
+.dis-heading p{
+
+    font-size: 12px;
+    color: #272727;
+}
+
+.golf-image-con{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+    padding: 10px;
+    gap: 25px;
+    padding-top: 0px;
+    padding-block: 10px;
+
+}
+
+.golfbox{
+    width: 270px;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30px;
+}
+
+.golfbox h3{
+    padding-top: 10px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.golfbox p{
+    padding-top: 5px;
+   font-size: 12px;
+   color: #272727;
+   padding-left: 10px;
+}
+
+.golfimg1{
+    width: 370px;
+    height: 350x;
+     background-image: url(./Screenshot\ 2024-10-09\ 101443.png);
+   
+}
+
+.golfimg2{
+    width: 370px;
+    height: 255px;
+    background-image: url(./Screenshot\ 2024-10-09\ 103904.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.golfimg3{
+    width: 370px;
+    height: 255px;
+    background-image: url(./Screenshot\ 2024-10-09\ 103825.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.golfimg4{
+    width: 370px;
+    height: 255px;
+       background-image: url(./Screenshot\ 2024-10-09\ 103052.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.bg-color2{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+
+.bg-color2 button{
+
+    width: 180px;
+    height: 35px;
+}
+
+/* |||||||||| */
+
+
+.our-blog-heading{
+    width: 100%;
+    height: 120px;
+}
+
+.our-blog-heading h1{
+    font-size: 35px;
+}
+
+.our-blog-heading p{
+    font-size: 13px;
+}
+
+.our-blog-heading{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-blog-heading h1{
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.our-blog-heading p{
+    font-size: 14px;
+    color: #2b2b2b;
+}
+
+.main-blog-image-con{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20px;
+}
+
+.image-con{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.image-box1{
+    width: 30%;
+    height: 400px;
+    background-image: url(./Screenshot\ 2024-10-09\ 032402.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    justify-content:start;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.image-box1 button{
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.image-box2{
+    width: 60%;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 40px;
+    gap: 25px;
+}
+
+
+
+.img-box{
+    width: 600px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #b6b6b6;
+    background-color: #f4fbff;
+    display: flex;
+}
+
+.img-box:hover{
+    transition: all 0.5s 0.1s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);  
+
+}
+
+.img-box-mini1{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(./skysports-richard-bland-golf_6596277.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.img-box-mini2{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(./St-Andrews_181edfa9004_large.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.img-box-mini3{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(./man.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.para-h4-btn{
+    padding: 5px;
+}
+
+.para-h4-btn p{
+    color: #696969;
+    font-size: 12px;
+}
+.para-h4-btn h4{
+
+    font-size: 15px;
+    font-weight: 500;
+    padding-block: 5px;
+}
+
+.para-h4-btn button{
+    width: 100px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.para-h4-btn button:hover{
+    transition: all 0.5s 0.1s;
+    background-color: #ecffec;
+}
+
+.line-box-con{
+
+    display: flex;
+
+}
+
+/* ||||||||||| */
+
+.our-blog-heading{
+    width: 100%;
+    height: auto;
+
+}
+
+.our-blog-heading h1{
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.main-blog-image-con{
+
+    width: 100%;
+    height: auto;
+}
+
+.image-con{
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+}
+
+
+.image-box1{
+    width: 100%;
+    height: 450px;
+
+}
+
+.image-box1 button{
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.image-box2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    gap: 25px;
+}
+
+
+
+.img-box{
+    width: 370px;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #b6b6b6;
+    background-color: #f4fbff;
+    display: flex;
+}
+
+.img-box:hover{
+    transition: all 0.5s 0.1s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);  
+
+}
+
+.img-box-mini1{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(./skysports-richard-bland-golf_6596277.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.img-box-mini2{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(./St-Andrews_181edfa9004_large.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.img-box-mini3{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(./man.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.para-h4-btn{
+    padding: 5px;
+}
+
+.para-h4-btn p{
+    color: #696969;
+    font-size: 10px;
+}
+.para-h4-btn h4{
+
+    font-size: 12px;
+    font-weight: 500;
+    padding-block: 10px;
+}
+
+.line-box2-con1{
+    display: none;
+
+}
+
+/* footer section */
+
+
+.footer-container{
+    width: 100%;
+    height: auto;
+}
+
+.small-container{
+    width: 95%;
+    height: 300px;
+    background-color: #1d1d1d;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.footer-logo{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 0px;
+    gap: 10px;
+    
+}
+
+.footer-logo ul li{
+    display: none;
+}
+
+
+
+.footer-logo img{
+    width: 50%;
+}
+
+.list-con{
+    width: 100%;
+    height: auto;
+    gap: 45px;
+    padding: 10px;
+    
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+}
+
+.list ul li:nth-child(1){
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.list ul li{
+    font-size: 12px;
+}
+
+.list ul li:hover{
+    text-decoration: underline;  
+}
+
+
+/* last section */
+
+.last-section{
+    width: 100%;
+    height: auto;
+}
+
+.last-box{
+    width: 100%;
+    height: auto;
+    background-color: #1d1d1d;
+
+}
+
+.copy-right{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.copy-right p{
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.last-icons{
+    width: 100%;
+    height: auto;
+
+}
+
+
+}

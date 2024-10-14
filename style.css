@@ -1,0 +1,1091 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  Helvetica;
+    /* border: 1px solid purple;    */
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.nav-bar{
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: rgba(240, 248, 255, 0.229);
+    backdrop-filter: blur(5px);
+
+}
+
+.logo-section{
+    width: 25%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-section img{
+
+    width: 80%;
+}
+
+.mini-nav{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 50px; */
+  
+}
+
+.mini-nav-content{
+    width: 450px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 25px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(185, 185, 185);
+    
+}
+
+.mini-nav-content a{
+    color: black;
+    text-decoration: none;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.mini-nav-content a:nth-child(1){
+        width: 60px;
+        background-color: rgb(232, 232, 232);
+}
+
+.mini-nav-content a:nth-child(2){
+    width: 76px;
+}
+
+.mini-nav-content a:nth-child(2):hover{
+    transition: all 1s 0.1s;
+    background-color: rgb(232, 232, 232);
+}
+
+.mini-nav-content a:nth-child(3){
+    width: 76px;
+}
+
+.mini-nav-content a:nth-child(3):hover{
+    transition: all 1s 0.1s;
+    background-color: rgb(232, 232, 232);
+}
+
+.mini-nav-content a:nth-child(4){
+    width: 60px;
+}
+
+.mini-nav-content a:nth-child(4):hover{
+    transition: all 1s 0.1s;
+    background-color: rgb(232, 232, 232);
+}
+
+.mini-nav-content a:nth-child(5){
+    width: 66px;
+}
+
+.mini-nav-content a:nth-child(5):hover{
+    transition: all 1s 0.1s;
+    background-color: rgb(232, 232, 232);
+}
+
+.btn-container{
+
+    width: 25%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-container button:nth-child(1){
+    width: 90px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid rgb(168, 168, 168);
+    background-color: white;
+    
+}
+
+.btn-container button:nth-child(1):hover{
+    transition: all 1s 0.1s;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid black;
+}
+
+.btn-container button:nth-child(2){
+    width: 120px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-size: 16px;
+}
+
+.btn-container button:nth-child(2):hover{
+    transition: all 1s 0.1s;
+    color: black;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid black;
+}
+
+/* nav bar end */
+
+
+.heading-section{
+    width: 100%;
+    height: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-heading{
+    width: 60%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 45px;   
+    
+}
+
+.ex-heading h1{
+    font-size: 55px;
+    font-weight: 300;
+}
+
+.p-with-button{
+    width: 40%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.p-with-button p{
+    color: rgb(69, 69, 69);
+    font-size: 15px;
+}
+
+.heading-btn{
+    width: 345px;
+}
+
+.heading-btn button{
+    width: 140px;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid #FFDD2B;
+    background-color: #FFDD2B;
+}
+
+.heading-btn button:hover{
+    transition: all 1s 0.1s;
+    background-color: #f6e695;
+}
+
+
+.bg-image-mobile{
+    width: 95%;
+    height: 300px;
+    background-image: url(./golf-ball-tee-with-sunrise-background_878783-21718.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    display: none;
+}
+
+
+.bg-image-con{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #FFDD2B; */
+}
+
+.bg-img{
+    width: 95%;
+    height: 300px;
+    background-image: url(./closeup-golf-ball-tee-sunrise-beautiful-golf-course_734334-3433\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.144) 0%, rgba(0, 0, 0, 0.271) 35%, rgba(0, 0, 0, 0.884) 100%); */
+}
+
+.mobile-img-bg{
+    display: none;
+}
+
+
+
+.box{
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(193deg, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.425) 74%, rgba(0,0,0,0.9948573179271709) 100%);
+    border-radius: 20px;
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.726);
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.box h3{
+    font-weight: 200;
+    font-size: 30px;
+    display: flex;
+    padding-bottom: 10px; 
+    line-height: 1.4;
+}
+
+.box button{
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid rgba(173, 173, 173, 0.589);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.654);
+}
+
+.box button:hover{
+    transition: all 0.5s 0.1s;
+    background-color: rgba(255, 255, 255, 0.36);
+    color: rgba(255, 255, 255, 0.644);
+}
+
+.book-heading{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-heading h1{
+    font-weight: 400;
+    font-size: 40px;
+
+}
+
+.box-container{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.box01{
+    width: 345px;
+    height: 110px;
+    border-radius: 14px;
+    border: 1px solid rgb(199, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+    background-color: #F0F8FF;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.195); */
+}
+
+.box01:hover{
+    transition: all 0.5s 0.1s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);  
+}
+
+.small-img1{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url(./ALCAIDESA-LINKS-120x90\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.box02{
+    width: 345px;
+    height: 110px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+    background-color: #F0F8FF;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.box02:hover{
+    transition: all 0.5s 0.1s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
+}
+
+.small-img2{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url(./caption.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box03{
+    width: 345px;
+    height: 110px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: #F0F8FF;
+}
+
+.box03:hover{
+    /* width: 90%;
+    height: 110px; */
+    transition: all 0.5s 0.1s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);  
+}
+
+.small-img3{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url(./001.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.side-box-content{
+    width: 70%;
+    height: 100px;
+    padding: 10px;
+}
+
+.side-box-content p{
+    padding-bottom: 20px;
+}
+
+.side-box-content button{
+    width: 100px;
+    height: 25px;
+    border-radius: 12px;
+    background-color: transparent;
+    font-size: 13px;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.line-box-con{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-box{
+    width: 13%;
+    height: 5px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 4px 0px 0px 4px ;
+}
+
+.line-box1{
+    width: 13%;
+    height: 5px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 0px 4px 4px 0px ;
+}
+
+.images-heading-con{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.our-heading{
+    width: 35%;
+    height: 550px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.our-heading h1{
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.our-heading p{
+    line-height: 1.6;
+    font-size: 15px;
+    color: rgb(57, 57, 57);
+    padding-bottom: 30px;
+}
+
+.our-heading button{
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFDD2B;
+    font-size: 15px;
+}
+
+.our-heading button:hover{
+    transition: all 1s 0.1s;
+    background-color: #f6e695;
+}
+
+.golf-man-image-con{
+    width: 30%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.golf-image{
+    width: 270px;
+    height: 360px;
+    background-image: url(./golf.1\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.golf-man-img-con{
+    width: 35%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    flex-direction: column;
+}
+
+.golf-con{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    background: url(./golf_PNG88-removebg-preview.png);
+    background-position: bottom;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.main-golf{
+    width: 350px;
+    height: 250px;
+    background-color: #D7E9F3;
+    border-radius: 20px;
+
+}
+
+.golf-con{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.golf-con button{
+    width: 100px;
+    height: 26px;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    border: 1px solid gray;
+    
+}
+
+.icon-box{
+    padding-top: 60px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-left: 13%;
+
+}
+
+
+.bottom p{
+    font-size: 14px;
+    padding-bottom: 7px;
+    font-weight: 500;
+    color: rgb(54, 54, 54);
+}
+.bottom h3{
+    font-weight: 500;
+    font-size: 17px;
+
+}
+
+.icon-box i{
+    padding: 10px;
+    background-color: #FFDD2B;
+    border-radius: 10px;
+
+}
+
+.icon-box button{
+
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #282828;
+    color: white;
+    font-size: 13px;
+    margin-left: 10px;
+    border: none;
+}
+
+.golf-bg-img1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-bg-2{
+    width: 95%;
+    height: 350px;
+    background-image: url(./Screenshot\ 2024-10-09\ 040918.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    padding: 50px;
+}
+
+
+.img-bg-2 button{
+    width: 110px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #FFDD2B;
+    border: none;
+}
+
+.img-bg-2 button:hover{
+    transition: all 1s 0.1s;
+    background-color: #f6e695;
+}
+
+.bg-color-con{
+    width: 100%;
+    height: auto;
+     padding-block: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bg-color2{
+    width: 95%;
+    height: 650px;
+    background-color: #EFF1E4;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+
+}
+
+.dis-heading{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.dis-heading h1{
+    font-size: 45px;
+    font-weight: 300;
+    padding-block: 20px;
+}
+
+.dis-heading p{
+
+    font-size: 13px;
+    color: #272727;
+}
+
+.golf-image-con{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 25px;
+    padding-top: 50px;
+
+}
+
+.golfbox{
+    width: 270px;
+    height: 300px;
+}
+
+.golfbox h3{
+    padding-top: 10px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.golfbox p{
+    padding-top: 5px;
+   font-size: 12px;
+   color: #272727;
+   padding-left: 10px;
+}
+
+.golfimg1{
+    width: 270px;
+    height: 255px;
+    background-image: url(./Screenshot\ 2024-10-09\ 031951.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.golfimg2{
+    width: 270px;
+    height: 255px;
+    background-image: url(./Screenshot\ 2024-10-09\ 032024.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.golfimg3{
+    width: 270px;
+    height: 255px;
+    background-image: url(./Screenshot\ 2024-10-09\ 032048.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.golfimg4{
+    width: 270px;
+    height: 255px;
+    background-image: url(./Screenshot\ 2024-10-09\ 032158.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+.bg-color2 button{
+
+    width: 170px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #272727;
+    color: #ffffff;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.bg-color2 button:hover{
+    width: 190px;
+    transition: all 1s 0.1s;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+/* |||||||||||| */
+
+.our-blog-heading{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-blog-heading h1{
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.our-blog-heading p{
+    font-size: 14px;
+    color: #2b2b2b;
+}
+
+.main-blog-image-con{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 20px;
+}
+
+.image-con{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.image-box1{
+    width: 30%;
+    height: 400px;
+    background-image: url(./Screenshot\ 2024-10-09\ 032402.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    justify-content:start;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.image-box1 button{
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 13px;
+    border: 1px solid black;
+}
+
+.image-box1 button:hover{
+    transition:  0.8s 0.01s;
+    background-color: rgb(31, 31, 31);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+.image-box2{
+    width: 60%;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 40px;
+    gap: 25px;
+}
+
+
+
+.img-box{
+    width: 600px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #b6b6b6;
+    background-color: #f4fbff;
+    display: flex;
+}
+
+.img-box:hover{
+    transition: all 0.5s 0.1s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);  
+
+}
+
+.img-box-mini1{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(./skysports-richard-bland-golf_6596277.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.img-box-mini2{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(./St-Andrews_181edfa9004_large.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.img-box-mini3{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(./man.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.para-h4-btn{
+    padding: 10px;
+}
+
+.para-h4-btn p{
+    color: #696969;
+    font-size: 12px;
+}
+.para-h4-btn h4{
+
+    font-size: 15px;
+    font-weight: 500;
+    padding-block: 5px;
+}
+
+.para-h4-btn button{
+    width: 100px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 12px;
+    background-color: #ffe666;
+    border: 1px solid black;
+    margin-top: 8px;
+}
+
+.para-h4-btn button:hover{
+    transition: all 0.5s 0.1s;
+    background-color: #ecffec;
+}
+
+.line-box2-con1{
+    width: 10%;
+    height: 400px;
+    display: flexbox;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.line-box01{
+    width: 3px;
+    height: 150px;
+    border-radius: 4px 4px 0px 0px;
+    background: #272727;
+}
+
+.line-box02{
+    width: 3px;
+    height: 150px;
+    border-radius: 0px 0px 4px 4px;
+    background: #dbdbdb;
+}
+
+/* footer section  */
+
+.footer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.small-container{
+    width: 95%;
+    height: 350px;
+    background-color: #1d1d1d;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+}
+
+.footer-logo{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+    
+}
+
+.footer-logo ul li{
+    list-style: none;
+    line-height: 1.4;
+    padding-block: 10px;
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+
+
+.footer-logo img{
+    width: 120%;
+
+}
+
+.list-con{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+}
+
+.list ul li:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.list ul li{
+    font-size: 14px;
+}
+
+.list ul li:hover{
+    text-decoration: underline;  
+}
+
+
+
+/* |||||||||||| */
+
+.last-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.last-box{
+    width: 95%;
+    height: 75px;
+    background-color: #1d1d1d;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   
+}
+
+.copy-right{
+    width: 50%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.copy-right p{
+    font-size: 12px;
+    color: #939393;
+}
+
+.last-icons{
+    width: 50%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;  
+}
+
+.last-icons p{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b3b3b;
+    border: 1px solid rgba(255, 255, 255, 0.555);
+}
+
+.last-icons p i{
+    color: #ffffff;
+}
+
