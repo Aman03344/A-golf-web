@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family:  Helvetica;
-    /* border: 1px solid purple;    */
+    border: 1px solid purple;   
 }
 
 .container{
@@ -230,7 +230,7 @@
 
 .bg-image-con{
     width: 100%;
-    height: 300px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -793,165 +793,185 @@
     padding-block: 20px;
 }
 
-.image-con{
-    width: 90%;
-    height: auto;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-
-
-.image-box1{
-    width: 30%;
-    height: 400px;
-    background-image: url(./Screenshot\ 2024-10-09\ 032402.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-    display: flex;
-    align-items: end;
-    justify-content:start;
-    padding: 10px;
-    padding-bottom: 20px;
-}
-
-.image-box1 button{
-    width: 110px;
-    height: 30px;
-    border-radius: 20px;
-    font-size: 13px;
-    border: 1px solid black;
-}
-
-.image-box1 button:hover{
-    transition:  0.8s 0.01s;
-    background-color: rgb(31, 31, 31);
-    border: 1px solid rgb(255, 255, 255);
-    color: white;
-}
-
-.image-box2{
-    width: 60%;
-    height: 435px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    padding-left: 40px;
-    gap: 25px; 
-}
 
 
 
-.img-box{
-    width: 80%;
-    height: 130px;
-    border-radius: 10px;
-    padding: 5px;
-    border: 1px solid #6f6f6f5a;
-    background-color: #f4fbff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.img-box:hover{
-    transition: all 0.5s 0.1s;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);  
 
-}
+        /* new last boxs */
 
-.img-box-mini1{
 
-    width: 130px;
-    height: 120px;
-    background-image: url(./skysports-richard-bland-golf_6596277.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    border: 1px solid rgb(223, 223, 223);
-}
+        .box-container01{
+            width: 100%;
+            height: auto; 
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding: 20px;
+        }
 
-.img-box-mini2{
+        .part-one{
+            width: 40%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        
+        }
 
-    width: 130px;
-    height: 120px;
-    background-image: url(./St-Andrews_181edfa9004_large.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    border: 1px solid rgb(223, 223, 223);
-}
+        .part-one-image{
+            width: 100%;
+            height: 500px;
+            background-image: url(./Screenshot\ 2024-10-09\ 032402.png);
+            background-position: center;
+            background-size: cover;
+            border-radius: 20px;
+            display: flex;
+            align-items: end;
+            justify-content: start;
+            padding: 20px;
+        }
 
-.img-box-mini3{
+        .part-one-image button{
+            width: 110px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: #FFDD2B;
+            border: 1px solid rgba(197, 197, 197, 0.38);
+            font-size: 12px;
+        }
 
-    width: 130px;
-    height: 120px;
-    background-image: url(./man.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    border: 1px solid rgb(223, 223, 223);
-}
+        .part-one-image button:hover{
+            transition: all 0.5s 0,1s;
+            background-color: #f6e695;
+            border: 1px solid rgba(0, 0, 0, 0.925);
+        }
 
-.para-h4-btn{
-    padding: 10px;
-}
+        /* part one end */
 
-.para-h4-btn p{
-    color: #696969;
-    font-size: 12px;
-}
-.para-h4-btn h4{
+        .part-two{
+           width: 65%;
+           height: auto;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           gap: 40px;
+           flex-direction: column;
+           padding: 20px;
+        }
 
-    font-size: 15px;
-    font-weight: 500;
-    padding-block: 5px;
-}
+        .card1{
+            width: 100%;
+            height: 110px;
+            border-radius: 14px;
+            border: 1px solid rgb(199, 199, 199);
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding: 5px;
+            background-color: #F0F8FF;
+        }
 
-.para-h4-btn button{
-    width: 100px;
-    height: 28px;
-    border-radius: 14px;
-    font-size: 12px;
-    background-color: #ffe666;
-    border: 1px solid black;
-    margin-top: 8px;
-}
+        .card1:hover{
+            transition: all 0.4s 0.1s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);   
+        }
 
-.para-h4-btn button:hover{
-    transition: all 0.5s 0.1s;
-    background-color: #ecffec;
-}
+        .card2{
+            width: 100%;
+            height: 110px;
+            border-radius: 14px;
+            border: 1px solid rgb(199, 199, 199);
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding: 5px;
+            background-color: #F0F8FF;
+        }
 
-.line-box2-con1{
-    width: 10%;
-    height: 400px;
-    display: flexbox;
-    flex-direction: column;
-    padding: 50px;
-    align-items: center;
-    justify-content: center;
+        .card2:hover{
+            transition: all 0.4s 0.1s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);   
+        }
 
-}
+        .card3{
+    
+            width: 100%;
+            height: 110px;
+            border-radius: 14px;
+            border: 1px solid rgb(199, 199, 199);
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding: 5px;
+            background-color: #F0F8FF;
+        }
 
-.line-box01{
-    width: 3px;
-    height: 150px;
-    border-radius: 4px 4px 0px 0px;
-    background: #272727;
-}
+        .card3:hover{
+            transition: all 0.4s 0.1s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);   
+        }
 
-.line-box02{
-    width: 3px;
-    height: 150px;
-    border-radius: 0px 0px 4px 4px;
-    background: #dbdbdb;
-}
+        .left-img1{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            background-image: url(./skysports-richard-bland-golf_6596277.jpg);
+            background-position: center;
+            background-size: cover;
+        }
 
+        .left-img2{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            background-image: url(./St-Andrews_181edfa9004_large.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .left-img3{
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            background-image: url(./ALCAIDESA-LINKS-120x90\ \(1\).jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .right-part{
+            width: 80%;
+            height: 110px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        } 
+
+        .right-part p{
+            
+        }
+
+        .right-part button{
+            width: 100px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: #FFDD2B;
+            border: 1px solid rgba(0, 0, 0, 0.565);
+            font-size: 12px;
+        }
+
+        
+        .right-part button:hover{
+            transition: all 0.5s 0,1s;
+            background-color: #f6e695;
+            border: 1px solid rgba(0, 0, 0, 0.925);
+        }
+        
+
+
+        
 /* footer section  */
 
 .footer-container{
@@ -990,7 +1010,7 @@
     list-style: none;
     line-height: 1.4;
     padding-block: 10px;
-    font-size: 15px;
+    font-size: 13px;
     padding-left: 40px;
 }
 
@@ -1018,12 +1038,12 @@
 }
 
 .list ul li:nth-child(1){
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .list ul li{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .list ul li:hover{

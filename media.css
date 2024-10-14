@@ -4,7 +4,7 @@
     *{
         margin: 0%;
         padding: 0%;
-        /* border: 1px solid purple; */
+        border: 1px solid purple;
     }
     
     .container{
@@ -23,8 +23,8 @@
     }
     
     .logo-section{
-        width: 50%;
-        height: 80px;
+        width: 45%;
+        height: 70px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -44,22 +44,22 @@
     }
     
     .btn-container{
-        width: 50%;
-        height: 80px;
-        gap: 5px;
+        width: 55%;
+        height: 70px;
+        gap: 10px;
     }
     
     .btn-container button:nth-child(1){
-        width: 90px;
-        height: 33px;
-        font-size: 15px;
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
     }
     
     
     .btn-container button:nth-child(2){
-        width: 120px;
-        height: 35px;
-        font-size: 15px;
+        width: 95px;
+        height: 30px;
+        font-size: 14px;
     }
     
     /* nav bar end */
@@ -67,33 +67,45 @@
     
     .heading-section{
         width: 100%;
-        height: 265px;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding: 0;
     }
     
     .ex-heading{
         width: 100%;
-        height: 270px;
+        height: 200px;
         padding-left: 25px;    
     }
     
     .ex-heading h1{
-        font-size: 35px;
+        width: 100%;
+        height: auto;
+        font-size: 33px;
         font-weight: 300;
     }
     
     .p-with-button{
         width: 100%;
-        height: 200px;
+        height: auto;
         display: flex;
-        align-items: start;
+        align-items: center;
         justify-content: center;
-        padding-left: 25px;    
+        padding: 20px;    
     }
     
+
+    .p-with-button p{
+        width: 100%;
+        height: auto;
+    }
+        .heading-btn{
+            width: 100%;
+            height: auto;
+        }
     
     .bg-image-con{
         width: 100%;
@@ -149,10 +161,13 @@
 
 .book-heading{
     width: 100%;
-    height: 100px;   
+    height: auto;   
+    text-align: center;
 }
 
 .book-heading h1{
+    width: auto;
+    height: auto;
     font-weight: 400;
     font-size: 30px;
 
@@ -161,16 +176,17 @@
 .box-container{
     width: 100%;
     height: auto;
-    flex-direction: column;
     padding-block: 20px;
     display: flex;
     align-items: center;
     justify-content: start;
+    flex-direction: column;
 }
 
 .box01{
     width: 90%;
-    height: 110px;
+    height: auto;
+    /* border: 1px solid red; */
 }
 
 
@@ -183,7 +199,7 @@
 
 .box02{
     width: 90%;
-    height: 110px;
+    height: auto;
 }
 
 /* .box02:hover{
@@ -194,7 +210,7 @@
 
 .box03{
     width: 90%;
-    height: 110px;
+    height: auto;
 }
 
 /* .box03:hover{
@@ -215,25 +231,33 @@
 
 .our-heading{
     width: 100%;
-    height: 400px;
+    height: auto;
     flex-direction: column;
     padding: 15px;
     padding-left: 30px;
+    
 }
 
 .our-heading h1{
+    width: 100%;
+    height: auto;
     padding-bottom: 10px;
     font-size: 45px;
+    text-align: center;
 }
 
 .our-heading p{
+    width: 100%;
+    height: auto;
     font-size: 15px;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .golf-man-image-con{
     width: 100%;
-    height:400px;
+    height:auto;
+    padding: 10px;
 }
 
 .golf-image{
@@ -244,22 +268,24 @@
 
 .golf-man-img-con{
     width: 100%;
-    height: 550px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
     flex-direction: column;
+    padding: 10px;
 }
 
 .golf-con{
     width: 340px;
-    height: 350px;
+    height: 350px;  
 }
 
 .main-golf{
-    width: 80%;
-    height: 350px;
+    width: 100%;
+    height: auto;
+    
 }
 
 .golf-con{
@@ -267,9 +293,18 @@
   
 }
 
+.icon-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
 .icon-box i{
     font-size: 18px;
-    padding: 15px;
+    padding: 10px;
 }
 
 
@@ -291,6 +326,8 @@
 
 
 .mobile-img-bg h1{
+    width: 100%;
+    height: auto;
     color: white;
     font-size: 40px;
     font-weight: 500;
@@ -299,6 +336,8 @@
 }
 
 .mobile-img-bg p{
+    width: 100%;
+    height: auto;
     color: white;
     font-size: 13px;
     font-weight: 500;
@@ -340,17 +379,23 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    flex-wrap: wrap;
+
 
 }
 
 .dis-heading h1{
+    
+    width: 100%;
+    height: auto;
     font-weight: 500;
     font-size: 35px;
     padding-block: 15px;
 }
 
 .dis-heading p{
-
+    width: 100%;
+    height: auto;
     font-size: 12px;
     color: #272727;
 }
@@ -371,7 +416,7 @@
 }
 
 .golfbox{
-    width: 270px;
+    width: 100%;
     height: auto;
     flex-direction: column;
     display: flex;
@@ -394,14 +439,14 @@
 }
 
 .golfimg1{
-    width: 370px;
-    height: 350x;
+    width: 100%;
+    height: 255px;
      background-image: url(./Screenshot\ 2024-10-09\ 101443.png);
    
 }
 
 .golfimg2{
-    width: 370px;
+    width: 100%;
     height: 255px;
     background-image: url(./Screenshot\ 2024-10-09\ 103904.png);
     background-position: center;
@@ -410,7 +455,7 @@
 }
 
 .golfimg3{
-    width: 370px;
+    width: 100%;
     height: 255px;
     background-image: url(./Screenshot\ 2024-10-09\ 103825.png);
     background-position: center;
@@ -419,7 +464,7 @@
 }
 
 .golfimg4{
-    width: 370px;
+    width: 100%;
     height: 255px;
        background-image: url(./Screenshot\ 2024-10-09\ 103052.png);
     background-position: center;
@@ -444,165 +489,30 @@
 
 .our-blog-heading{
     width: 100%;
-    height: 120px;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .our-blog-heading h1{
+    width: 100%;
+    height: auto;
     font-size: 35px;
-}
-
-.our-blog-heading p{
-    font-size: 13px;
-}
-
-.our-blog-heading{
-    width: 100%;
-    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-}
-
-.our-blog-heading h1{
-    font-size: 40px;
-    font-weight: 400;
-    padding-bottom: 15px;
+    padding: 0;
 }
 
 .our-blog-heading p{
-    font-size: 14px;
-    color: #2b2b2b;
-}
-
-.main-blog-image-con{
-
     width: 100%;
     height: auto;
+    font-size: 13px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-block: 20px;
-}
-
-.image-con{
-    width: 90%;
-    height: auto;
-    padding: 20pxpx;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-
-
-.image-box1{
-    width: 30%;
-    height: 400px;
-    background-image: url(./Screenshot\ 2024-10-09\ 032402.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-    display: flex;
-    align-items: end;
-    justify-content:start;
-    padding: 10px;
-    padding-bottom: 20px;
-}
-
-.image-box1 button{
-    width: 110px;
-    height: 30px;
-    border-radius: 20px;
-    font-size: 13px;
-}
-
-.image-box2{
-    width: 100%;
-    height: 435px;
-    display: flex;
-    flex-direction: column;
-    /* padding: 20px; */
-    /* padding-left: 40px; */
-    /* gap: 25px; */
-    /* border: 5px solid rgb(153, 51, 51); */
-}
-
-
-
-.img-box{
-    width: 50%;
-    height: 130px;
-    border-radius: 10px;
-    padding: 5px;
-    /* border: 5px solid red; */
-    background-color: #f4fbff;
-    /* display: flex; */
-}
-
-.img-box:hover{
-    transition: all 0.5s 0.1s;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);  
-
-}
-
-.img-box-mini1{
-
-    width: 100px;
-    height: 100px;
-    background-image: url(./skysports-richard-bland-golf_6596277.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    border: 1px solid rgba(166, 166, 166, 0.531);
-}
-
-.img-box-mini2{
-
-    width: 100px;
-    height: 100px;
-    background-image: url(./St-Andrews_181edfa9004_large.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-}
-
-.img-box-mini3{
-
-    width: 100px;
-    height: 100px;
-    background-image: url(./man.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-}
-
-.para-h4-btn{
-    padding: 5px;
-}
-
-.para-h4-btn p{
-    color: #696969;
-    font-size: 12px;
-}
-.para-h4-btn h4{
-
-    font-size: 15px;
-    font-weight: 500;
-    padding-block: 5px;
-}
-
-.para-h4-btn button{
-    width: 100px;
-    height: 28px;
-    border-radius: 14px;
-    font-size: 12px;
-    background-color: white;
-    border: 1px solid black;
-}
-
-.para-h4-btn button:hover{
-    transition: all 0.5s 0.1s;
-    background-color: #ecffec;
+    padding: 0;
 }
 
 .line-box-con{
@@ -625,110 +535,58 @@
     padding-bottom: 15px;
 }
 
-.main-blog-image-con{
 
+/* our blog end */
+
+.box-container01{
     width: 100%;
-    height: auto;
-}
-
-.image-con{
-    width: 90%;
     height: auto;
     flex-direction: column;
 }
 
-
-.image-box1{
-    width: 100%;
-    height: 450px;
-
-}
-
-.image-box1 button{
-    width: 110px;
-    height: 30px;
-    border-radius: 20px;
-    font-size: 12px;
-    border: 1px solid black;
-}
-
-.image-box2{
+.part-one{
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+}
 
-    gap: 25px;
+.part-one-image{
+    width: 100%;
+    height: 500px;
 }
 
 
-
-.img-box{
-    width: 370px;
+.part-two{
+    width: 100%;
     height: auto;
-    border-radius: 10px;
-    padding: 5px;
-    border: 1px solid #b6b6b6;
-    background-color: #f4fbff;
-    display: flex;
 }
 
-.img-box:hover{
-    transition: all 0.5s 0.1s;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);  
-
+.card1{
+    width: 100%;
+    height: auto;
 }
 
-.img-box-mini1{
-
-    width: 100px;
-    height: 100px;
-    background-image: url(./skysports-richard-bland-golf_6596277.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-}
-
-.img-box-mini2{
-
-    width: 100px;
-    height: 100px;
-    background-image: url(./St-Andrews_181edfa9004_large.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-}
-
-.img-box-mini3{
-
-    width: 100px;
-    height: 100px;
-    background-image: url(./man.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-}
-
-.para-h4-btn{
-    padding: 5px;
-}
-
-.para-h4-btn p{
-    color: #696969;
-    font-size: 10px;
-}
-.para-h4-btn h4{
-
+.card1 p{
     font-size: 12px;
-    font-weight: 500;
-    padding-block: 10px;
 }
 
-.line-box2-con1{
-    display: none;
-
+.card2{
+    width: 100%;
+    height: auto;
 }
+
+.card2 p{
+    font-size: 12px;
+}
+
+.card3{
+    width: 100%;
+    height: auto;
+}
+
+.card3 p{
+    font-size: 12px;
+}
+
 
 /* footer section */
 
@@ -740,7 +598,7 @@
 
 .small-container{
     width: 95%;
-    height: 300px;
+    height: auto;
     background-color: #1d1d1d;
     border-radius: 25px;
     display: flex;
@@ -759,6 +617,8 @@
 }
 
 .footer-logo ul li{
+    width: 100%;
+    height: auto;
     display: none;
 }
 
@@ -773,10 +633,13 @@
     height: auto;
     gap: 45px;
     padding: 10px;
+    flex-wrap: wrap;
     
 }
 
 .list ul{
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -784,11 +647,15 @@
 }
 
 .list ul li:nth-child(1){
+    width: 100%;
+    height: auto;
     font-size: 15px;
     font-weight: 700;
 }
 
 .list ul li{
+    width: 100%;
+    height: auto;
     font-size: 12px;
 }
 
@@ -802,12 +669,14 @@
 .last-section{
     width: 100%;
     height: auto;
+    
 }
 
 .last-box{
     width: 100%;
     height: auto;
     background-color: #1d1d1d;
+    flex-wrap: wrap;
 
 }
 
