@@ -315,8 +315,8 @@
    
 }
 
-.box01{
-    width: 345px;
+.box01 {
+    width: 250px;
     height: 110px;
     border-radius: 14px;
     border: 1px solid rgb(199, 199, 199);
@@ -325,13 +325,16 @@
     justify-content: start;
     padding: 5px;
     background-color: #F0F8FF;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.195); */
+    transition: all 0.5s ease, 0.5s ease; 
+  
 }
 
-.box01:hover{
-    transition: all 0.5s 0.1s;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);  
+.box01:hover {
+  
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
 }
+
 
 .small-img1{
     width: 100px;
@@ -343,22 +346,26 @@
 }
 
 
-.box02{
-    width: 345px;
+.box02 {
+    width: 250px;
     height: 110px;
     border-radius: 14px;
+    border: 1px solid rgb(199, 199, 199);
     display: flex;
     align-items: center;
     justify-content: start;
     padding: 5px;
     background-color: #F0F8FF;
-    border: 1px solid rgb(199, 199, 199);
+    transition: all 0.5s ease, 0.5s ease; 
+  
 }
 
-.box02:hover{
-    transition: all 0.5s 0.1s;
+.box02:hover {
+  
+    width: 400px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
 }
+
 
 .small-img2{
     width: 100px;
@@ -369,23 +376,24 @@
     background-size: cover;
 }
 
-.box03{
-    width: 345px;
+.box03 {
+    width: 250px;
     height: 110px;
     border-radius: 14px;
+    border: 1px solid rgb(199, 199, 199);
     display: flex;
     align-items: center;
     justify-content: start;
     padding: 5px;
-    border: 1px solid rgb(199, 199, 199);
     background-color: #F0F8FF;
+    transition: all 0.5s ease, 0.5s ease; 
+  
 }
 
-.box03:hover{
-    /* width: 90%;
-    height: 110px; */
-    transition: all 0.5s 0.1s;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195);  
+.box03:hover {
+  
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
 }
 
 .small-img3{

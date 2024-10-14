@@ -184,40 +184,44 @@
 }
 
 .box01{
-    width: 90%;
-    height: auto;
-    /* border: 1px solid red; */
+    width: 250px;
+    height: 110px;
+    transition: width 0.5s ease, 0.5s ease; 
+  
+}
+
+.box01:hover {
+  
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
 }
 
 
-/* .box01:hover{
-    transition: all 0.5s 0.1s;
-    width: 90%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
-} */
-
-
-.box02{
-    width: 90%;
-    height: auto;
+.box02 {
+    width: 250px;
+    height: 110px;
+    transition: width 0.5s ease, 0.5s ease; 
+  
 }
 
-/* .box02:hover{
-    transition: all 0.5s 0.1s;
-    width: 90%;
+.box02:hover {
+  
+    width: 400px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
-} */
-
-.box03{
-    width: 90%;
-    height: auto;
 }
 
-/* .box03:hover{
-    transition: all 0.5s 0.1s;
-    width: 90%;
+.box03 {
+    width: 250px;
+    height: 110px;
+    transition: width 0.5s ease, 0.5s ease; 
+  
+}
+
+.box03:hover {
+  
+    width: 400px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.195); 
-} */
+}
 
 
 .images-heading-con{
