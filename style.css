@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family:  Helvetica;
-    border: 1px solid purple;   
+    /* border: 1px solid purple;    */
 }
 
 .container{
@@ -21,7 +21,7 @@
     position: sticky;
     top: 0px;
     z-index: 10;
-    background-color: rgba(240, 248, 255, 0.229);
+    /* background-color: rgba(240, 248, 255, 0.229); */
     backdrop-filter: blur(5px);
 
 }
@@ -32,6 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .logo-section img{
@@ -1109,7 +1110,45 @@
     border: 1px solid rgba(255, 255, 255, 0.555);
 }
 
+
+
+.last-icons p:hover:nth-child(1):hover{
+    
+    background: linear-gradient(45deg, #0A66C2, #004182, #0077B5, #00A0DC);
+    border-radius: 50%; 
+    box-shadow: 0 6px 40px rgba(10, 102, 194, 0.7),  0 0 80px rgba(0, 65, 130, 0.5), 0 0 120px rgba(0, 119, 181, 0.8);
+    filter: brightness(1.2);
+
+}
+
+.last-icons p:hover:nth-child(2):hover{
+
+    background: linear-gradient(45deg, #0A66C2, #004182, #0077B5);
+border-radius: 50%; /* Optional for rounded elements */
+box-shadow: 0 4px 30px rgba(10, 102, 194, 0.6), 0 0 60px rgba(0, 65, 130, 0.4),0 0 100px rgba(0, 119, 181, 0.7);
+filter: brightness(1.1); /* Enhances glow */
+
+}
+
+
+.last-icons p:hover:nth-child(3):hover{
+    background: linear-gradient(45deg, #1DA1F2, #0d8af0, #007bb5, #00c8ff);
+border-radius: 50%;
+box-shadow: 0 6px 40px rgba(29, 161, 242, 0.7), 0 0 80px rgba(13, 138, 240, 0.5),0 0 120px rgba(0, 123, 181, 0.8);
+filter: brightness(1.2); 
+
+}
+
+.last-icons p:hover:nth-child(4):hover{
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #833ab4, #515bd4);
+border-radius: 50%; 
+box-shadow: 0 4px 30px rgba(255, 99, 71, 0.6), 0 0 60px rgba(204, 35, 102, 0.4),0 0 100px rgba(131, 58, 180, 0.7);
+filter: brightness(1.1); 
+
+}
+
 .last-icons p i{
     color: #ffffff;
 }
+
 
