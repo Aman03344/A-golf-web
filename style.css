@@ -837,21 +837,25 @@
     height: 435px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     padding-left: 40px;
-    gap: 25px;
+    gap: 25px; 
 }
 
 
 
 .img-box{
-    width: 600px;
+    width: 80%;
     height: 130px;
     border-radius: 10px;
     padding: 5px;
-    border: 1px solid #b6b6b6;
+    border: 1px solid #6f6f6f5a;
     background-color: #f4fbff;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .img-box:hover{
@@ -862,8 +866,8 @@
 
 .img-box-mini1{
 
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 120px;
     background-image: url(./skysports-richard-bland-golf_6596277.jpg);
     background-position: center;
     background-size: cover;
@@ -873,8 +877,8 @@
 
 .img-box-mini2{
 
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 120px;
     background-image: url(./St-Andrews_181edfa9004_large.jpg);
     background-position: center;
     background-size: cover;
@@ -884,8 +888,8 @@
 
 .img-box-mini3{
 
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 120px;
     background-image: url(./man.jpg);
     background-position: center;
     background-size: cover;

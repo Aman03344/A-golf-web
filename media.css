@@ -253,12 +253,12 @@
 }
 
 .golf-con{
-    width: 350px;
+    width: 340px;
     height: 350px;
 }
 
 .main-golf{
-    width: 450px;
+    width: 80%;
     height: 350px;
 }
 
@@ -488,7 +488,7 @@
 .image-con{
     width: 90%;
     height: auto;
-    padding: 10px;
+    padding: 20pxpx;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -517,25 +517,26 @@
 }
 
 .image-box2{
-    width: 60%;
+    width: 100%;
     height: 435px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    padding-left: 40px;
-    gap: 25px;
+    /* padding: 20px; */
+    /* padding-left: 40px; */
+    /* gap: 25px; */
+    /* border: 5px solid rgb(153, 51, 51); */
 }
 
 
 
 .img-box{
-    width: 600px;
+    width: 50%;
     height: 130px;
     border-radius: 10px;
     padding: 5px;
-    border: 1px solid #b6b6b6;
+    /* border: 5px solid red; */
     background-color: #f4fbff;
-    display: flex;
+    /* display: flex; */
 }
 
 .img-box:hover{
@@ -552,6 +553,7 @@
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    border: 1px solid rgba(166, 166, 166, 0.531);
 }
 
 .img-box-mini2{
